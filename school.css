@@ -1,0 +1,182 @@
+/*body{
+width:100%;
+height:100%;
+}*/
+header{
+  background-image: url("header.jpg");
+  background-repeat: repeat;
+  width: 100%;
+  height: 450px;
+  text-align:center;
+}
+ul{
+    list-style-type: none;
+    padding: 30px;
+    text-align:center;
+}
+li{
+    display: inline;
+    padding: 15px;
+    font-size: 30px;
+    text-align:center;
+}
+a:link{
+    color:white;
+text-decoration:none;
+text-align:center;
+}
+a:hover{
+    color:  green;
+    font-style: bold;
+    text-align:center;
+}
+#text h2{
+    color: white;
+    text-align:center;
+}
+footer{
+    /*
+border: 4px solid black;*/
+width: 99.2%;
+height: 235px;
+background-color: #beb6ab;
+
+}
+
+.row1{
+    width: 99%;
+    padding:10px;
+    text-align:justify;
+}
+
+#teach{
+    width: 30%;
+    float: left;
+
+}
+#middle{
+    width:35%;
+    float: left;
+    padding:30px;
+
+}
+#last{
+    width:30%;
+    float:left;
+
+}
+
+.row2{
+    width: 99%;
+    padding:10px;
+    text-align:justify;
+}
+
+#study{
+    width: 30%;
+    float: left;
+
+}
+#focus{
+    width:35%;
+    float: left;
+    padding:30px;
+
+}
+#success{
+    width:30%;
+    float:left;
+
+}
+#row3{
+    float: left;
+    width:97.5%;
+    padding:20px;
+    text-align: justify;
+    font-size: 20px;
+}
+#row3 img{
+    width: 250px;
+    height:250px;
+}
+.math{
+   width:30%;
+   float:left; 
+   padding: 20px;
+}
+.science{
+    width:30%;
+    float:left; 
+    padding: 20px;
+ }
+ .art{
+    width:30%;
+    float:left; 
+    padding: 20px;
+ }
+ #row4{
+    padding:20px;
+    width:97.5%;
+    text-align: justify;
+    font-size: 20px;
+ }
+#row4 img{
+    width: 250px;
+    height:250px;
+}
+ .english{
+    width:30%;
+    float:left;
+    padding: 20px; 
+ }
+ .studies{
+    width:30%;
+    float:left; 
+    padding: 20px;
+ }
+ .drama{
+    width:30%;
+    float:left; 
+    padding: 20px;
+ }
+ article{
+    text-align: justify;
+    font-size: 25px;
+    padding: 20px;
+ }
+#admin{
+    background-image: url("header.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    height: 1000px;
+}
+form{
+    text-align:center;
+}
+    ul{
+        list-style-type: none;
+        padding: 30px;
+        text-align:center;
+    }
+    li{
+        display: inline;
+        padding: 15px;
+        font-size: 30px;
+        text-align:center;
+    }
+    a:link{
+        color:white;
+    text-decoration:none;
+    text-align:center;
+    }
+    a:hover{
+        color:  green;
+        font-style: bold;
+        text-align:center;
+    }
+    #text h2{
+        color: white;
+        text-align:center;
+    }
+
+    
