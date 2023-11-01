@@ -152,7 +152,12 @@ background-color: #beb6ab;
 }
 form{
     text-align:center;
+  /*  padding:20px;*/
 }
+/*form input{
+    height: 20px;
+    width: 300px;
+}*/
     ul{
         list-style-type: none;
         padding: 30px;
@@ -178,5 +183,8 @@ form{
         color: white;
         text-align:center;
     }
-
+    select{
+        height: 20px;
+        width: 300px;
+    }
     
