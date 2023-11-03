@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        header{
+            background-image: url("header.jpg");
+            background-repeat: repeat;
+            width: 100%;
+            height: 450px;
+            text-align:center;
+        }
+        ul{
+    list-style-type: none;
+    padding: 30px;
+    text-align:center;
+}
+li{
+    display: inline;
+    padding: 15px;
+    font-size: 30px;
+    text-align:center;
+}
+a:link{
+    color:white;
+text-decoration:none;
+text-align:center;
+}
+a:hover{
+    color:  green;
+    font-style: bold;
+    text-align:center;
+}
+input{
+width: 150px;
+}
+form label{
+    width: 5px;
+    
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href=" homes.html">Home</a></li>
+            <li><a href="abouty.html">About us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="myform.html">Form</a></li>
+        </ul>
+    </header>
+<h2>Student bio data</h2>
+    <form action="manny.afolabi@gmail.com" method="get" autocomplete="on">
+        <input type="text"  id="fnamey" placeholder="First name"><br><br>
+        <input type="text"  id="lnamey" placeholder="Last name"><br><br>
+        <input type="email"  id="emaily" placeholder="Email"><br><br>
+        <input type="password"  id="passc" placeholder="Password"><br><br>
+        <input type="number"  id="fnamey" placeholder="Phone No:"><br><br>
+        <p>Choose a class or classes you want your child to focus on...</p>
+        <input type="checkbox" id="Cource"  name="cource" value="math" placeholder="math"> 
+        <label for="Math">Math</label>
+        <input type="checkbox" id="Cource"  name="cource" value="art" placeholder="art"> 
+        <label for="Art">Art</label>
+        <input type="checkbox" id="Cource"  name="cource" value="science" placeholder="science"> 
+        <label for="Science">Science</label>
+        <input type="checkbox" id="Cource"  name="cource" value="english" placeholder="english"> 
+        <label for="English">English</label>
+        <input type="checkbox" id="Cource"  name="cource" value="social studies" placeholder="social studies"> 
+        <label for="Social Studies">Social Studies</label>
+        <input type="checkbox" id="Cource"  name="cource" value="drama" placeholder="drama"> 
+        <label for="Drama">Drama</label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
